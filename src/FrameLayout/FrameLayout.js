@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //Views
 import Characters from "../Views/Characters/Characters";
 import Home from "../Views/Home/Home";
@@ -13,12 +13,11 @@ import Footer from "./Footer";
 
 const FrameLayout = ({ ...props }) => {
   return (
-    <Router>
+    <Router basename="/santa-quiteria-landing">
       {/*Navbar*/}
       <Navbar />
       {/*Routes*/}
-      <div>
-        <Route exact={true} path="/" component={Home} />
+      <Switch>
         <Route path="/personajes" component={Characters} />
         <Route path="/cultura" component={Culture} />
         <Route
@@ -27,9 +26,10 @@ const FrameLayout = ({ ...props }) => {
           component={ArcheologicalArea}
         />
         <Route path="/proyecto" component={Project} />
-        {/**Footer for all views */}
-        <Footer />
-      </div>
+        <Route path="/" component={Home} />
+      </Switch>
+      {/**Footer for all views */}
+      <Footer />
     </Router>
   );
 };

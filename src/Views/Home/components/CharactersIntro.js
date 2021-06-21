@@ -15,7 +15,7 @@ import SiteZonesBanner from "../../../assets/images/SiteZonesBanner.png";
 
 const CharactersIntro = ({ history }) => {
   return (
-    <div className="banner-container -mt-96">
+    <div className="banner-container">
       <Fade top>
         <img className="banner-image" src={SiteZonesBanner} />
       </Fade>

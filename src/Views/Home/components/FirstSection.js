@@ -10,7 +10,7 @@ import Piramid from "../../../assets/images/piramide.png";
 
 const FirstSection = ({ history }) => {
   return (
-    <div className="first-section">
+    <div className="w-full h-full pl-28">
       <Bounce cascade>
         <div className="mt-52">
           <h1 className="font-bold tracking-widest text-white futura-text text-7xl">
@@ -34,7 +34,7 @@ const FirstSection = ({ history }) => {
           </div>
         </Slide>
         <Slide right cascade>
-          <div className="-mt-12 piramid-text">
+          <div className="mb-12 piramid-text">
             <p className="w-8/12 text-left text-white text">
               El sitio arqueológico de Santa Quiteria se encuentra entre los
               límites territoriales de los municipios de El Arenal y Amatitán,
@@ -43,7 +43,7 @@ const FirstSection = ({ history }) => {
             </p>
             <div
               onClick={() => history.push("/zona-arqueológica")}
-              className="text-white rounded-button text"
+              className="mt-8 text-white rounded-button text"
             >
               Leer más
             </div>

@@ -22,9 +22,7 @@ const Footer = () => {
             <p className="text-base text-center text-white ">
               Publicaciones Recientes
             </p>
-            <p className="-mt-2.5 text-sm text-center text-gray-400">
-              Febrero 11 2021
-            </p>
+            <p className="text-sm text-center text-gray-400">Febrero 11 2021</p>
             <p className="pb-3 text-base text-left text-white mt-1.5 border-b-2 border-gray-500">
               Para ver más sobre nuestras publicaciones entra a nuestras redes
               sociales donde encontraras, promociones, publicaciones y contenido
@@ -41,9 +39,7 @@ const Footer = () => {
             <p className="text-base text-center text-white ">Contacto</p>
             <div className="pb-3 border-b-2 border-gray-500">
               <p className="text-base text-left text-white ">Telefonos</p>
-              <p className="-mt-3.5 text-sm text-left primary-color">
-                33 12 36 65 68
-              </p>
+              <p className="text-sm text-left primary-color">33 12 36 65 68</p>
               <p className="text-base text-left text-white mt-1.5 -mb-1.5">
                 Correos
               </p>
@@ -95,7 +91,7 @@ const Footer = () => {
             <p className="text-base text-center text-white mt-2.5">
               Siguenos en nuestras redes
             </p>
-            <p className="flex flex-row items-center justify-start text-base text-left text-white ">
+            <p className="flex flex-row items-center justify-start mt-6 text-base text-left text-white ">
               MIPAA:{" "}
               <a
                 className="ml-2.5"
