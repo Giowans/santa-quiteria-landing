@@ -2,6 +2,7 @@
   "name": "museo-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Giowans.github.io/santa-quiteria-landing",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@testing-library/jest-dom": "^5.11.4",
@@ -22,8 +23,8 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "netlify deploy"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
