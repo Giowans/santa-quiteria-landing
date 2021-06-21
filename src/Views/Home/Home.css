@@ -1,0 +1,95 @@
+.banner-container {
+  position: relative;
+}
+
+.banner-image {
+  margin-top: -30px;
+  height: 1101px;
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  top: 25%;
+  left: 10%;
+}
+
+/*First Section*/
+
+.first-section {
+  height: 914px;
+  padding-left: 10vw;
+}
+
+.piramid-style {
+  width: 100%;
+}
+
+.piramid-container {
+  width: 60%;
+  max-width: 75%;
+}
+
+.piramid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  width: 40%;
+}
+
+.touchitlan-square {
+  position: absolute;
+  margin-top: 2vw;
+  margin-left: 7vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  padding: 10px;
+  background-color: white;
+  width: 19.5vw;
+  height: 17.5vw;
+  z-index: -1;
+}
+
+.square {
+  width: 95%;
+  height: 100%;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  margin: 15px;
+}
+
+/**Second section*/
+
+.second-section {
+  position: relative;
+  height: 1440px;
+  padding-left: 10vw;
+}
+
+.zone-container {
+  width: 40%;
+  max-width: 50%;
+}
+
+.zone-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+
+.sz-image {
+  height: 1440px;
+  width: 100%;
+}

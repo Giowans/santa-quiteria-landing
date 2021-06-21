@@ -1,0 +1,30 @@
+.linked {
+  font-family: Roboto !important;
+  letter-spacing: 2px;
+  font-size: 16px !important;
+  color: white !important;
+  transition: all 0.3s !important;
+}
+
+.linked:hover {
+  color: #858585 !important;
+}
+
+.linked:active {
+  color: black !important;
+}
+
+.active {
+  color: black !important;
+}
+
+.logo {
+  transition: 0.3s;
+}
+.logo:hover {
+  opacity: 0.5;
+}
+
+.logo-active {
+  filter: invert(100%);
+}

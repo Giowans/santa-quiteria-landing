@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.tittle {
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 101px;
+  letter-spacing: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.futura-text {
+  font-family: Futura;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subheading {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text {
+  font-family: Roboto;
+  font-size: 0.9rem;
+  font-weight: normal;
+  white-space: pre-line !important;
+  line-height: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.square-text {
+  margin-top: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rounded-button {
+  cursor: pointer;
+  width: fit-content;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 45px;
+  background-color: #7ca7ad;
+  transition: 0.3s;
+}
+
+.rounded-button:hover {
+  background-color: #7d9da2;
+  border-radius: 25px;
+}
+
+.rounded-button:active {
+  background-color: #7f8485;
 }

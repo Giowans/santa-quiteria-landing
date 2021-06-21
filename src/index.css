@@ -1,13 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black !important;
+  overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.primary-back {
+  background-color: #7ca7ad;
+}
+
+.primary-color {
+  color: #7ca7ad;
+}
+
+.secondary-back {
+  background-color: #858585;
+}
+
+.secondary-color {
+  color: #858585;
+}
+
+/**Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Buttons */
+::-webkit-scrollbar-button {
+  padding: 3px !important;
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-button:single-button {
+  background-color: #ebebeb;
+  display: block;
+}
+/* Up */
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  background-image: url("../src/assets/images/upArrow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  background-color: #777777;
+}
+/* Down */
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  background-image: url("../src/assets/images/downArrow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  background-color: #777777;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7ca7ad;
+  margin-left: 2px;
+  margin-right: 2px;
+  transition: 0.5s;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ebebeb;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6d9297;
+}
+
+/*Fonts*/
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Italic.ttf");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-Bold.ttf);
+  font-style: bold;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-Light.ttf);
+  font-style: normal;
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-LightItalic.ttf);
+  font-style: italic;
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-Thin.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-ThinItalic.ttf);
+  font-style: italic;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url(./assets/fonts/Roboto-Bold.ttf);
+  font-style: bold;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url(./assets/fonts/Roboto-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url(./assets/fonts/futura-medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url(./assets/fonts/Futura-Medium-Italic.ttf);
+  font-style: italic;
+  font-weight: 500;
+}
+
+* {
+  font-family: Roboto, Arial;
 }
