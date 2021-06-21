@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/santa-quiteria-landing/static/css/main.3efb37a7.chunk.css",
-    "main.js": "/santa-quiteria-landing/static/js/main.7f900ee1.chunk.js",
-    "main.js.map": "/santa-quiteria-landing/static/js/main.7f900ee1.chunk.js.map",
+    "main.js": "/santa-quiteria-landing/static/js/main.d97d3aa9.chunk.js",
+    "main.js.map": "/santa-quiteria-landing/static/js/main.d97d3aa9.chunk.js.map",
     "runtime-main.js": "/santa-quiteria-landing/static/js/runtime-main.63d0ada5.js",
     "runtime-main.js.map": "/santa-quiteria-landing/static/js/runtime-main.63d0ada5.js.map",
     "static/css/2.0dc6f958.chunk.css": "/santa-quiteria-landing/static/css/2.0dc6f958.chunk.css",
@@ -41,6 +41,6 @@
     "static/css/2.0dc6f958.chunk.css",
     "static/js/2.de5ac55f.chunk.js",
     "static/css/main.3efb37a7.chunk.css",
-    "static/js/main.7f900ee1.chunk.js"
+    "static/js/main.d97d3aa9.chunk.js"
   ]
 }
