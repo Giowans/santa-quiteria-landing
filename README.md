@@ -1,3 +1,6 @@
+# You can see this project [here!](https://giowans.github.io/santa-quiteria-landing/).
+The  web landing is not responsive yet but it will i promise.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
