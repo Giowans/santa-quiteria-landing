@@ -6,9 +6,7 @@ import CharacterCard from "./components/CharacterCard";
 import TipoUno from "../../assets/images/tipo_1.png";
 import TipoDos from "../../assets/images/tipo_2.png";
 import TipoTres from "../../assets/images/tipo_3.png";
-import TipoCuatro from "../../assets/images/tipo_4.png";
-
-import Footer from "../../FrameLayout/Footer";
+import TipoCuatro from "../../assets/images/tipo_4.jpg";
 
 const Characters = ({ history, ...props }) => {
   return (
@@ -114,7 +112,24 @@ const Characters = ({ history, ...props }) => {
         name="SALVADOR VALENZUELA"
         reversible={true}
         sourceImage={TipoCuatro}
-      ></CharacterCard>
+      >
+        Abogado, egresado de la Universidad Panamericana, Agricultor de Agave y
+        criador de ganado de registro (limousine y piemontese). Se ha
+        desempeñado como vicepresidente del Consejo Regulador de Tequila. Dentro
+        del mismo ha presidido el Comite Técnico agronómico, y ha sido miembro
+        activo de los comités de finanzas, asuntos exteriores, planeación
+        estratégica, normalización, entre otros. Ha integrado las mesas
+        directivas de distintas organizaciones ganaderas, entre ellas La
+        Asociación Ganadera Local Arenal, Asociación de Criadores de Ganado
+        Limousin Brahmousin de México, Asociación Mexicana de Criadores de Razas
+        Italianas
+        <li>Diplomado Sommelier Profesional</li>
+        <li>Diplomado en Comercio Exterior</li>
+        <li>Diplomado en Cultivo del Agave</li>
+        <li>
+          Alta Dirección para Empresas de la Cadena Agroalimentaria (IPADE)
+        </li>
+      </CharacterCard>
     </div>
   );
 };

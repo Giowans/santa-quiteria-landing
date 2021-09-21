@@ -2,7 +2,6 @@
   "name": "museo-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Giowans.github.io/santa-quiteria-landing",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@testing-library/jest-dom": "^5.11.4",

@@ -37,7 +37,7 @@ const SecondSection = () => {
         <Fade bottom>
           <img
             src={AgaveFigura}
-            className="absolute relative z-10 w-10/12 inset-y-36 inset-x-20 h-10/12"
+            className="absolute z-10 w-10/12 inset-y-36 inset-x-20 h-10/12"
           />
         </Fade>
         <Fade right>

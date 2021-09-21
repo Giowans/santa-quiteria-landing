@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 
 const TitleSection = () => {
   return (
-    <div className="flex flex-row items-center justify-around pt-40 pb-10 bg-black px-30 bg-opacity-80">
+    <div className="flex flex-row items-center justify-around pt-40 pb-10 pl-8 bg-black bg-opacity-80">
       <Fade top>
         <img className="w-48 h-48" src={InahVer} />
       </Fade>

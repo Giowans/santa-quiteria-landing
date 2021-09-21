@@ -3,3 +3,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.antecedentes-banner {
+  background-image: url("../../assets/images/santaQuiteria.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

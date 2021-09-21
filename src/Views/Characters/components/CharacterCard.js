@@ -25,14 +25,14 @@ const CharacterCard = ({ reversible, sourceImage, children, name }) => {
             {name}
           </h1>
           <div
-            className={`py-2.5 overflow-y-auto max-h-72 ${
+            className={`py-2.5 overflow-y-auto flex-row max-h-72 ${
               reversible ? "scroll-left" : "scroll-right"
             }`}
           >
             <p
               className={`${
                 reversible ? "pl-3.5" : "pr-3.5"
-              } leading-6 text-left text-black whitespace-pre-line text`}
+              } leading-6 text-left text-black whitespace-pre-line text scroll-right`}
             >
               {children}
             </p>

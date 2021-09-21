@@ -13,7 +13,7 @@ import Footer from "./Footer";
 
 const FrameLayout = ({ ...props }) => {
   return (
-    <Router basename="/santa-quiteria-landing">
+    <Router>
       {/*Navbar*/}
       <Navbar />
       {/*Routes*/}
